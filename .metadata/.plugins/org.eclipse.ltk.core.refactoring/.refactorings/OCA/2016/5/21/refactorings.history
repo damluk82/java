@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Miezte.java&apos; to &apos;OCA/src/chapter4_Encapsulation&apos;&#x0D;&#x0A;- Original project: &apos;OCA&apos;&#x0D;&#x0A;- Destination element: &apos;OCA/src/chapter4_Encapsulation&apos;&#x0D;&#x0A;- Original element: &apos;chapter4_Encapsulation.Miezte.java&apos;" description="Copy compilation unit" destination="/src&lt;chapter4_Encapsulation" element1="/src&lt;chapter4_Encapsulation{Miezte.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1464365208404" units="1" version="1.0"/>
+</session>

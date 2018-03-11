@@ -1,0 +1,51 @@
+package collection.test;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.TreeMap;
+
+public class map {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Map<String, Integer> map = new HashMap<String, Integer>();
+		
+		map.put("harom", 3);
+		map.put("egy", new Integer(1));
+		map.put("ketto", 2);
+		
+		getMapContent(map);
+		
+		map.put("egy", 4);
+		
+		Map<String, Integer> tree = new TreeMap<String, Integer>(map);
+		
+//		System.out.println(map.toString());
+		getMapContent(tree);
+		
+		for (String i : tree.keySet()){
+			System.out.println(i);
+		}
+		
+	}
+	
+	private static void getMapContent(Map<String, Integer> m){
+		
+		
+		Iterator<Map.Entry<String, Integer>> iterator = m.entrySet().iterator();
+		
+		Map.Entry<String, Integer> entry;
+		
+		while (iterator.hasNext()) { 
+
+			entry = (Map.Entry<String, Integer>)iterator.next();
+			
+			System.out.println(entry.getKey() + " " + entry.getValue());
+		}
+		System.out.println("");
+		
+	}
+
+}

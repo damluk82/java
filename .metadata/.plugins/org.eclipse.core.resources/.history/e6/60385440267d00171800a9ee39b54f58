@@ -1,0 +1,49 @@
+package testing;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class EqualsTest {
+
+	String name;
+	Integer id;
+	
+	public EqualsTest(String name, Integer id) {
+		super();
+		this.name = name;
+		this.id = id;
+	}
+
+	public boolean equals(Object arg0) {
+
+		if (arg0 instanceof EqualsTest){
+			EqualsTest another = (EqualsTest)arg0;
+			if (this.name == another.name &&
+				this.id == another.id){
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	public static void main(String[] args) {
+		
+		
+		Boolean b;
+		
+		System.out.println(b);
+		
+		List<EqualsTest> list = new ArrayList<>(); 
+		
+		list.add(new EqualsTest("ketto", 2));
+		list.add(new EqualsTest("ketto", 2));
+		list.add(new EqualsTest("hat", 6));
+		
+		for (EqualsTest a : list){
+			
+			if (a.equals(new EqualsTest("negy", 4))){
+				System.out.println("Found");
+			}
+		}
+	}	
+}

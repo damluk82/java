@@ -1,0 +1,68 @@
+package swing.gwt.test;
+
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class NewButton implements ActionListener{
+
+	JFrame frame = new JFrame();
+	JButton button = new JButton("Test");
+//	JPanel panel = new JPanel();
+	NewPanel nn = new NewPanel();
+	JPanel jp = new JPanel();
+	
+	class NewPanel extends JPanel {
+
+		/**
+		 * 
+		 */
+		private static final long serialVersionUID = 1L;
+
+		@Override
+		public void paintComponents(Graphics g) {
+			
+			Graphics2D g2d = (Graphics2D)g;
+			
+			g2d.fillRect(20, 50, 100, 100);
+			g2d.setColor(Color.orange);
+			g2d.setBackground(Color.cyan);
+		}
+
+		
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		NewButton newButton = new NewButton();
+		newButton.go();
+	}
+	
+	public void go(){
+		jp.setBackground(Color.BLUE);
+		frame.setSize(500, 500);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		//frame.getContentPane().add(BorderLayout.SOUTH, button);
+		frame.getContentPane().add(BorderLayout.EAST, new NewPanel());
+		frame.setVisible(true);
+		
+		
+		
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent arg0) {
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,25 @@
+package dog;
+
+import java.util.Date;
+import java.sql.*;
+
+public class duplicatedDate {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Date date = new Date();
+
+		// System.out.println(date);
+
+		long myLong = 123456789123456l;
+
+		long x;
+		x = myLong / 10;
+
+		System.out.println(x);
+	}
+
+
+
+}

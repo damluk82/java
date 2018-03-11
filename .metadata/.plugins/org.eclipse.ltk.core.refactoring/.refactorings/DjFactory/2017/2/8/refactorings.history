@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;djFactory.renameMusic&apos; to &apos;Manager&apos;&#x0D;&#x0A;- Original project: &apos;DjFactory&apos;&#x0D;&#x0A;- Original element: &apos;djFactory.renameMusic&apos;&#x0D;&#x0A;- Renamed element: &apos;djFactory.Manager&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;renameMusic&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;djFactory{renameMusic.java[renameMusic" matchStrategy="1" name="Manager" qualified="false" references="true" similarDeclarations="false" stamp="1488061606420" textual="false" version="1.0"/>
+</session>

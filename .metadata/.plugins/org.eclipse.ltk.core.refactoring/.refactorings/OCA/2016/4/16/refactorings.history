@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;TimeAndDate.java&apos; to &apos;OCA/src/chapter3_Core_Java_API&apos;&#x0D;&#x0A;- Original project: &apos;OCA&apos;&#x0D;&#x0A;- Destination element: &apos;OCA/src/chapter3_Core_Java_API&apos;&#x0D;&#x0A;- Original element: &apos;chapter3_Core_Java_API.TimeAndDate.java&apos;" description="Copy compilation unit" destination="/src&lt;chapter3_Core_Java_API" element1="/src&lt;chapter3_Core_Java_API{TimeAndDate.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1461515489013" units="1" version="1.0"/>
+</session>

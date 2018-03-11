@@ -1,0 +1,19 @@
+package collection.test;
+
+public class Probe {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		StringBuilder sb = new StringBuilder();
+		
+		sb.append('a');
+		sb.append(true);
+		
+		System.out.println(sb);
+		
+		
+		
+	}
+
+}

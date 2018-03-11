@@ -1,0 +1,32 @@
+package chapter2_Operators_And_Statements;
+
+public class For {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		For f = new For();
+		f.test();
+		
+	}
+
+	public void test(){
+		
+		int i = 6;
+		
+		for (i=7;i<10;i++){
+			
+			System.out.print(i+" ");
+			
+			if (i==7){
+				System.out.print("breaking");
+				break;
+				}
+			
+		}
+		
+		}
+		
+		
+	}
+	

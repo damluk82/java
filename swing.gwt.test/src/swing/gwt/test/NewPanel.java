@@ -1,0 +1,30 @@
+package swing.gwt.test;
+
+import java.awt.Color;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+
+import javax.swing.JPanel;
+
+public class NewPanel extends JPanel {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 67048185645204979L;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+		@Override
+		public void paintComponents(Graphics g) {
+			super.paintComponent(g);
+			Graphics2D g2d = (Graphics2D)g;
+			
+			g2d.setColor(Color.orange);
+			g2d.fillOval(1, 1, 100, 50);
+		}
+	
+}

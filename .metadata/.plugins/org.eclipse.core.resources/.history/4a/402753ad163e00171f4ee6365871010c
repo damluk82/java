@@ -1,0 +1,10 @@
+package collection.test;
+
+public class Probe {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

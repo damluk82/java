@@ -1,0 +1,45 @@
+package chapter2_Operators_And_Statements;
+
+public class For {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		For f = new For();
+		f.test();
+		
+	}
+
+	public void test(){
+		
+		int i = 6;
+		
+		for (i=7;i<10;i++){
+			
+//			System.out.print(i+" ");
+			
+			if (i==7){
+//				System.out.print("breaking");
+				break;
+				}
+			
+		}
+		
+		int a = 5;
+		
+		long hhh = a*5-a++;
+		
+		System.out.println(hhh);
+		
+		
+		int xx = 2 * a;
+//		int xx = 0;
+		xx += a;
+		
+//		System.out.println(xx + 5555_5555_5555);
+		
+		}
+		
+		
+	}
+	

@@ -1,0 +1,37 @@
+package dog;
+
+import java.util.Properties;
+
+public class prop {
+
+	public static void main(String[] args) {
+		
+		Properties properties = System.getProperties();
+//		System.out.println(properties.getProperty("file.separator"));
+		
+//		properties.list(System.out);
+		
+//		System.out.println(System.getProperty("path.separator"));
+		
+//		System.setProperty("kedvencFank", "Black Sensation");
+//		
+//		System.out.println(properties.getProperty("kedvencFank"));
+		
+		int _111 = 12;
+		
+		char ggg = 2;
+		
+		Character ch = new Character('\uffff');
+		
+		System.out.println(Character.isLowerCase(ch));
+		System.out.println(Character.isUpperCase(ch));
+		System.out.println(ch);
+
+	}
+	
+	
+	
+	
+	
+	
+}

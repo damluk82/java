@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;remDupes.java&apos; to &apos;Capgemini/src/capgemini&apos;&#x0D;&#x0A;- Original project: &apos;Capgemini&apos;&#x0D;&#x0A;- Destination element: &apos;Capgemini/src/capgemini&apos;&#x0D;&#x0A;- Original element: &apos;capgemini.remDupes.java&apos;" description="Copy compilation unit" destination="/src&lt;capgemini" element1="/src&lt;capgemini{remDupes.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1499176145650" units="1" version="1.0"/>
+</session>
